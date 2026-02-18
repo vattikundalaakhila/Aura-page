@@ -1,0 +1,21 @@
+@import 'tailwindcss';
+
+@font-face {
+  font-family: 'Lufga' ;
+  font-weight: 400;
+  src: url('/fonts/LufgaRegular.ttf') format('Truetype');
+}
+
+/* html{
+  font-size: 62.5%;
+} */
+
+body{
+  font-family: 'Lufga', sans-serif;
+}
+
+@layer base{
+  .layout{
+    @apply px-8 sm:px-12 lg:px-16 xl:px-24
+  }
+}
